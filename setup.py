@@ -50,7 +50,10 @@ from setuptools import setup, find_packages
 install_requires = list(filter(
     bool, [line.split('#')[0].strip()
            for line in open("requirements/common.txt").readlines()
-           if not any([line.startswith('https://'), line.startswith('http://')])]
+           if not any([line.startswith('https://'), line.startswith('http://')])] +
+    [
+        'django-livefield @ git+https://github.com/shurph/django-livefield.git@hack1',
+    ]
 ))
 
 
