@@ -13,7 +13,7 @@ django-livefield @ git+https://github.com/shurph/django-livefield.git@hack2
 django-jsonfield==1.0.1  # ---------------------------------------------------- (checked 2018-06-07)
 django-model-utils>=3.0,<3.2  # ------------------------------------------------ (bumped 2018-06-07)
 django-annoying>=0.10,<0.11  # (various Django helpers) ------------------------ (bumped 2018-06-07)
-django-autocomplete-light>=3.2,<3.3  # ----------------------------------------- (bumped 2018-06-07)
+django-autocomplete-light>=3.3,<3.4  # ----------------------------------------- (bumped 2019-05-29)
 
 # API
 djangorestframework>=3.8,<3.10  # ---------------------------------------------- (bumped 2019-01-31)
